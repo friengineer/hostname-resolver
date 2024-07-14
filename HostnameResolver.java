@@ -124,7 +124,7 @@ public class HostnameResolver {
       }
 
       for(int i = 0; i < 4; i++) {
-        for(int j = 0; j < ipv4Addresses.size() -1; j++) {
+        for(int j = 0; j < ipv4Addresses.size() - 1; j++) {
 
           if(splitAddresses[j][i].equals(splitAddresses[j + 1][i])) {
             isSame = true;
